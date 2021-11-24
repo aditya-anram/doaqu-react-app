@@ -1,13 +1,106 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f6f6f6;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title{
+  text-align: center;
+  font-size: 5rem;
+  background-color: #1266f1;
+  color: white;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.pencarian{
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: center;
+  background-color: #1266f1;
+  padding: 1rem;
+  color: white;
+}
+
+@media screen and (min-width: 1230px) {
+  ul:last-child{
+    margin-right: 51.4rem !important;
+  }
+} 
+
+.container-details{
+  background-color: white;
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.details-box{
+  display: flex;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  justify-content: center;
+}
+
+
+.list-images{
+  margin: 3rem;
+  text-align: center !important;
+}
+
+.list-doa{
+  padding-bottom: 0.5rem;
+  margin: 1rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: whitesmoke 0.5rem solid;
+}
+
+.list-ayat{
+  margin: 1rem;
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.list-latin{
+  border-radius: 0.2rem;
+  margin: 1rem;
+  padding: 0.3rem;
+}
+
+.list-artinya{
+  background-color: whitesmoke;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  border-left: wheat solid 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.hasil-pencarian{
+  margin-bottom: 2rem;
+  font-size: large; 
+  border-bottom: 0.3rem solid whitesmoke;
+  padding: 0.8rem;
+}
+
+.no-data{
+  font-size: large;
+  padding: 2rem;
 }
